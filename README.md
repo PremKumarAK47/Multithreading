@@ -16,3 +16,20 @@ In Java, a thread is a lightweight process that can execute concurrently with ot
 - **Daemon Thread:** A daemon thread is a type of thread that runs in the background and provides services to other threads or applications running in the same process. Daemon threads do not prevent the application from exiting if all user threads have completed execution.
 
 - **System Thread:** A system thread is created by the Java Virtual Machine (JVM) to carry out system-level tasks, such as garbage collection, finalization, and signal handling. These threads run in the background and are managed by the JVM.
+
+- ## Thread Class and Its types-
+- In Java, Thread class is a part of the java.lang package and provides built-in support for threads in Java. It is the top-level class in Java that provides multithreading capabilities to Java programs.
+
+- Some of the types of threads in Java are:
+
+- User Threads: These threads are created by the application to perform a specific task or job. User threads can be daemon or non-daemon threads.
+
+- Daemon Threads: These threads are created by the JVM to perform background tasks such as garbage collection. Daemon threads are low-priority threads that run in the background and do not prevent the application from terminating.
+
+- System Threads: These threads are created by the JVM to perform system-level tasks such as I/O operations and signal handling.
+
+- Timer Threads: These threads are created by the Timer class to execute scheduled tasks at specified intervals.
+
+- Thread Pools: A thread pool is a group of pre-initialized threads that are used to execute tasks in a multithreaded environment. Thread pools are commonly used in server applications to handle multiple requests simultaneously.
+
+Each type of thread has its own characteristics and usage, and it's important to choose the appropriate type of thread for a particular task to ensure optimal performance and resource utilization.
